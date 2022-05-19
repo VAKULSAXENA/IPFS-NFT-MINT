@@ -45,4 +45,7 @@ async function mintNFT(tokenURI){
         .catch((err) => {
           console.log(" Promise failed:", err);
         });
-    }
+        mintNFT("https://gateway.pinata.cloud/ipfs/QmUB7mg2Gcjc7UxREKE7Bs8xvL61N8HAU5kzcfvQmhxCsb");
+      }
+    
+    
